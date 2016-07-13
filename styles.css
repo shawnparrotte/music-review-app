@@ -1,0 +1,81 @@
+.app__wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.app__wrapper .app__inner {
+  width: 600px;
+  padding: 0;
+  margin: 0;
+}
+.app__wrapper .app__inner .review {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  background: linear-gradient(to top left, #dadada, #fff);
+  box-shadow: 0 10px 25px -10px rgba(0,0,0,0.3);
+}
+.app__wrapper .app__inner .review figure {
+  margin: 0;
+  height: 150px;
+}
+.app__wrapper .app__inner .review figure img {
+  width: 150px;
+  margin: 0;
+}
+.app__wrapper .app__inner .review .review__information {
+  padding: 22px 0 0 20px;
+}
+.app__wrapper .app__inner .review .review__information h2 {
+  font-family: Helvetica;
+  margin: 0;
+  color: #626262;
+}
+.app__wrapper .app__inner .review .review__information h3 {
+  font-family: Helvetica;
+  margin: 0;
+  color: #c2c2c2;
+}
+.app__wrapper .app__inner .review .review__information .review__score {
+  display: flex;
+  margin: 15px 0 0 0;
+}
+.app__wrapper .app__inner .review .review__information .review__score p {
+  font-family: Helvetica;
+  font-size: 40px;
+  margin: 0;
+  color: #626262;
+}
+.app__wrapper .app__inner .review .review__information .review__score .review__change {
+  margin: 5px 10px;
+}
+.app__wrapper .app__inner .review .review__information .review__score .review__change a {
+  display: block;
+  font-family: Courier;
+  color: #c2c2c2;
+  text-decoration: none;
+}
+.app__wrapper .app__inner label {
+    display: block;
+    font-family: Helvetica;
+}
+.app__wrapper .app__inner input {
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.app__wrapper .app__inner button {
+    font-family: Helvetica;
+    font-size: 20px;
+    border: none;
+    border-radius: none;
+    background-color: red;
+    color: white;
+    margin: 20px 0 0 0;
+    padding: 10px 20px;
+    transition: box-shadow .3s;
+}
+
+.app__wrapper .app__inner button:hover {
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.3);
+}

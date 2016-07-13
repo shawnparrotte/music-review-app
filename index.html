@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Angular 2 - Music Review App</title>
+    <!-- Libraries -->
+    <script src="node_modules/es6-shim/es6-shim.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- Stylesheet -->
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+
+    <!-- Configure System.js, our module loader -->
+    <script src="resources/systemjs.config.js"></script>
+    <script>
+      System.import('app.js')
+            .then(null, console.error.bind(console));
+    </script>
+
+
+    <div class="ui main text container">
+      <review-app></review-app> <!-- Our app loads here! -->
+    </div>
+
+  </body>
+</html>
